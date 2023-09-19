@@ -1,10 +1,11 @@
 {
-  "id": "[plugin].com.pot-app.lingva",
+  "id": "[plugin].com.pot-app.chatGPT",
   "plugin_type": "translate",
-  "icon": "lingva.svg",
-  "display": "Lingva",
-  "homepage": "https://github.com/pot-app/pot-app-translate-plugin-template",
-  "needs": [{ "key": "requestPath", "display": "请求地址" }],
+  "icon": "ChatGPT.svg",
+  "display": "ChatGPT",
+  "homepage": "https://github.com/neverland-lhy/pot-app-translate-plugin-GPT",
+  "needs": [{ "key": "requestPath", "display": "请求地址" },
+    {"key": "apiKey", "display": "apiKey"}],
   "language": {
     "auto": "auto",
     "zh_cn": "zh",
